@@ -264,6 +264,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
 <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <nav id="navbar">
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
     <i class="fa fa-remove"></i>
   </a>
@@ -273,6 +274,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
   </div>
+  </nav>
 </nav>
 
 <!-- Page Content -->
@@ -299,18 +301,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <!-- Grid for photos -->
     <section id="projects" class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
+      <!-- <div class="w3-half"> -->
+        <a href="#" class="project-tile">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+        </a>
+        <a href="#" class="project-tile">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+        </a>
+      <!-- </div> -->
 
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
+      <!-- <div class="w3-half"> -->
+        <a href="#" class="project-tile">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+        </a>
+        <a href="#" class="project-tile">
+          <img src="/w3images/chef.jpg" style="width:100%">
+        </a>
+      <!-- </div> -->
     <!-- End photo grid -->
     </section>
   <!-- End Portfolio Section -->
@@ -448,12 +455,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://github.com/Rys86" id="profile-link" target="_blank">
+      <i class="fa fa-github w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.freecodecamp.org/fcc58ad890c-d82b-40b4-92e3-d384c84958a1" target="_blank">
+      <i class="fa fa-free-code-camp w3-hover-opacity"></i>
+    </a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
