@@ -7,15 +7,29 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('/w3images/profile_girl.jpg');
-  min-height: 100%;
-}
+  body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+  .w3-row-padding img {margin-bottom: 12px}
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/profile_pic.jpg');
+    min-height: 100%;
+  }
+
+  #projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project-tile {
+    width: 45%;
+    padding: 10px;
+    margin: 2.5%;
+    border-style: groove;
+    border-radius: 5px;
+  }
 </style>
 <style>
     /* W3.CSS 4.14 November 2020 by Jan Egil and Borge Refsnes */
@@ -302,20 +316,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <!-- Grid for photos -->
     <section id="projects" class="w3-row-padding" style="margin:0 -16px">
       <!-- <div class="w3-half"> -->
-        <a href="#" class="project-tile">
-          <img src="/w3images/wedding.jpg" style="width:100%">
+        <a href="https://rys86.github.io/tribute_page/" class="project-tile" target="_blank">
+          <img src="images/tribute_page.png" style="width:100%">
         </a>
-        <a href="#" class="project-tile">
-          <img src="/w3images/rocks.jpg" style="width:100%">
+        <a href="https://rys86.github.io/survey_form/" class="project-tile" target="_blank">
+          <img src="images/survey_form.png" style="width:100%">
         </a>
       <!-- </div> -->
 
       <!-- <div class="w3-half"> -->
-        <a href="#" class="project-tile">
-          <img src="/w3images/underwater.jpg" style="width:100%">
+        <a href="https://rys86.github.io/product_landing_page/" class="project-tile" target="_blank">
+          <img src="images/landing_page.png" style="width:100%">
         </a>
-        <a href="#" class="project-tile">
-          <img src="/w3images/chef.jpg" style="width:100%">
+        <a href="https://rys86.github.io/Technical_Documentation_Page/" class="project-tile" target="_blank">
+          <img src="images/technical_documentation_page.png" style="width:100%">
         </a>
       <!-- </div> -->
     <!-- End photo grid -->
